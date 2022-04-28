@@ -1,0 +1,17 @@
+:root {
+    /* Palette de couleurs */
+    --light-grey: #e6ded9;
+    --white: rgb(248, 246, 246);
+    --black: #36454f;
+    --black-darker: #222c33;
+    --text-color: rgb(80, 79, 79);
+  
+    /* Typographie */
+  
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Fira Sans', sans-serif;
+    --line-height: 1.5rem;
+
+    --maxWidthContent: 1280px;
+  }
+  

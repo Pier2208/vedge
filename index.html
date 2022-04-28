@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Fira+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/dev.css" /> -->
+    <title>Bienvenue chez Vedge</title>
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <header>
+      <div class="grid container">
+        <a href="index.html" class="logo">Vedge</a>
+        <nav>
+          <ul>
+            <li><a class="link" href="#">Nos promotions</a></li>
+            <li class="dropdown link">
+              Nos restaurants
+              <ul class="dropdown-content">
+                <li>Nos restaurants</li>
+                <li><a href="restaurant.html">Drummondville</a></li>
+                <li><a href="restaurant.html">Val-Jalbert</a></li>
+                <li><a href="restaurant.html">Dix30</a></li>
+                <li><a href="restaurant.html">Trois-Rivières</a></li>
+                <li><a href="restaurant.html">Toronto</a></li>
+                <li><a href="restaurant.html">Berlin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <form class="search">
+          <label for="search">Trouvez un Vedge près de chez vous: </label>
+          <input type="text" name="search" id="search" placeholder="code postal: H2E 2Y7" />
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <!-- section full-bleed -->
+      <section class="hero">
+        <div class="wrapper">
+          <h1 class="heading-primary container">
+            <span class="heading-primary-main">Botanique et décadente</span>
+            <span class="heading-primary-sub">Savourez les meilleurs plats dans le respect total de la nature.</span>
+          </h1>
+        </div>
+        <img src="assets/images/hero_fpyeiv" alt="hero" />
+      </section>
+
+      <div class="container">
+        <section class="actions">
+          <h2 class="visibility-hidden">Commander et réserver votre table en ligne</h2>
+          <div class="grid">
+            <button class="btn">Commander</button>
+            <button class="btn">Réserver</button>
+          </div>
+        </section>
+
+        <section class="section-search">
+          <h2>Un <b>"Vedge"</b> près de chez vous?</h2>
+          <form>
+            <label class="visibility-hidden" for="postal-code">Code postal</label>
+            <input type="text" id="postal-code" name="postal-code" placeholder="Entrez votre code postal" />
+          </form>
+        </section>
+
+        <section class="promotions">
+          <h2>Profitez de nos promotions</h2>
+          <div class="grid">
+            <figure>
+              <img src="assets/images/soupe-maison.jpg" alt="soupe maison" />
+              <!-- <figcaption>
+                La soupe maison fait son retour en spécial
+              </figcaption> -->
+            </figure>
+
+            <figure>
+              <img src="assets/images/dahl.jpg" alt="dahl" />
+              <!-- <figcaption>
+                Le fameux dahl au curry: deux pour le prix d'un!
+              </figcaption> -->
+            </figure>
+
+            <figure>
+              <img src="assets/images/mimosas.jpg" alt="mimosas" />
+              <!-- <figcaption>
+                Deux Mimosas pour 15$ pendant toute l’heure du brunch
+              </figcaption> -->
+            </figure>
+
+            <figure>
+              <img src="assets/images/croquemadame.jpg" alt="croquemadame" />
+              <!-- <figcaption>
+                Croque-madame moité-prix pour les dames tous les jeudi
+              </figcaption> -->
+            </figure>
+
+            <figure>
+              <img src="assets/images/bleuets-pancake.jpg" alt="pancakes" />
+              <!-- <figcaption>
+                Les samedi pancakes à volonté pour 20$ seulement
+              </figcaption> -->
+            </figure>
+            <div class="grid">
+              <a class="link" href="#">Voir toutes nos promotions</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="highlights">
+          <h2>Restaurants en vedette</h2>
+          <div class="grid">
+            <figure>
+              <a href="restaurant.html">
+                <img src="assets/images/trois-rivieres.jpg" alt="Trois-Rivières" />
+              </a>
+              <figcaption>Trois-Rivières</figcaption>
+            </figure>
+
+            <figure>
+              <a href="restaurant.html">
+                <img src="assets/images/drummondville.jpg" alt="Drummondville" />
+              </a>
+              <figcaption>Drummondville</figcaption>
+            </figure>
+
+            <figure>
+              <a href="restaurant.html">
+                <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+              </a>
+              <figcaption>Val-Jalbert</figcaption>
+            </figure>
+
+            <figure>
+              <a href="restaurant.html">
+                <img src="assets/images/dix30.jpg" alt="Dix30" />
+              </a>
+              <figcaption>Dix30</figcaption>
+            </figure>
+
+            <figure>
+              <a href="restaurant.html"> <img src="assets/images/toronto.jpg" alt="Toronto" /></a>
+              <figcaption>Toronto</figcaption>
+            </figure>
+
+            <figure>
+              <a href="restaurant.html"> <img src="assets/images/berlin.jpg" alt="Berlin" /></a>
+              <figcaption>Berlin</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <section class="franchise">
+          <h2>Vous voulez établir votre propre restaurant ?</h2>
+          <div class="grid">
+            <p>Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !</p>
+            <button class="btn">Contactez-nous!</button>
+          </div>
+        </section>
+
+        <div class="grid">
+          <section class="links">
+            <h2>Liens utiles</h2>
+            <ul>
+              <li>
+                <a class="link" href="philosophie.html">Notre philosophie</a>
+              </li>
+              <li><a class="link" href="#">Carrières</a></li>
+              <li><a class="link" href="#">Franchises</a></li>
+              <li><a class="link" href="#">Presse</a></li>
+              <li><a class="link" href="#">Contact</a></li>
+            </ul>
+          </section>
+
+          <section class="newsletter">
+            <h2>Infolettre</h2>
+            <form>
+              <input type="text" placeholder="@courriel" />
+              <button class="btn">S'abonner</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

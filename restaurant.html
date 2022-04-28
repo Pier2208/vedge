@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/dev.css" /> -->
+    <title>Val-Jalbert</title>
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <header>
+      <div class="grid container">
+        <a href="index.html" class="logo">Vedge</a>
+        <nav>
+          <ul>
+            <li><a class="link" href="#">Nos promotions</a></li>
+            <li class="dropdown link">
+              Nos restaurants
+              <ul class="dropdown-content">
+                <li>Nos restaurants</li>
+                <li><a href="restaurant.html">Drummondville</a></li>
+                <li><a href="restaurant.html">Val-Jalbert</a></li>
+                <li><a href="restaurant.html">Dix30</a></li>
+                <li><a href="restaurant.html">Trois-Rivières</a></li>
+                <li><a href="restaurant.html">Toronto</a></li>
+                <li><a href="restaurant.html">Berlin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <form class="search">
+          <label for="search">Trouvez un Vedge près de chez vous: </label>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="code postal: H2E 2Y7"
+          />
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <!-- section full-bleed -->
+      <section class="hero">
+        <div class="wrapper">
+          <h1 class="heading-primary container">
+            <span class="heading-primary-main">Val-Jalbert</span>
+            <span class="heading-primary-sub">500 rue de la Montagne</span>
+          </h1>
+        </div>
+        <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+        <div class="map">
+          <span>Ouvrir sur Google Maps</span>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="map-marked-alt"
+            class="svg-inline--fa fa-map-marked-alt fa-w-18"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              fill="currentColor"
+              d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="actions">
+          <h2 class="visibility-hidden">
+            Commander et réserver votre table en ligne
+          </h2>
+          <div class="grid">
+            <button class="btn">Commander</button>
+            <button class="btn">Réserver votre table</button>
+          </div>
+          <small
+            >*Toutes les réservations doivent être faites via notre site
+            web.</small
+          >
+        </section>
+
+        <section class="hours">
+          <h2>Heures d'ouverture</h2>
+          <div class="grid">
+            <div class="hour">
+              <span>Lundi, Mardi, Mercredi</span><span class="dots"></span
+              ><span>11:30 - 22:00</span>
+            </div>
+            <div class="hour">
+              <span>Jeudi et Vendredi</span><span class="dots"></span
+              ><span>11:30 - 23:00</span>
+            </div>
+            <div class="hour">
+              <span>Samedi</span><span class="dots"></span
+              ><span>10:00 - 23:00</span>
+            </div>
+            <div class="hour">
+              <span>Dimanche</span><span class="dots"></span
+              ><span>10:00 - 22:00</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="promotions">
+          <h2>Profitez de nos promotions</h2>
+          <div class="grid">
+            <figure>
+              <img src="assets/images/soupe-maison.jpg" alt="soupe maison" />
+              <figcaption>
+                La soupe maison fait son retour en spécial
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/dahl.jpg" alt="dahl" />
+              <figcaption>
+                Le fameux dahl au curry: deux pour le prix d'un!
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/mimosas.jpg" alt="mimosas" />
+              <figcaption>
+                Deux Mimosas pour 15$ pendant toute l’heure du brunch
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/croquemadame.jpg" alt="croquemadame" />
+              <figcaption>
+                Croque-madame moité-prix pour les dames tous les jeudi
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/bleuets-pancake.jpg" alt="pancakes" />
+              <figcaption>
+                Les samedi pancakes à volonté pour 20$ seulement
+              </figcaption>
+            </figure>
+            <div class="grid">
+              <a class="link" href="#">Voir toutes nos promotions</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="menus">
+          <h2>Menus</h2>
+          <p>Régalez-vous en bonne conscience !</p>
+          <div class="grid">
+            <div class="card">
+              <img src="assets/images/day-evening.jpg" alt="image-de-support" />
+              <div class="content">
+                <h3>Menu Jour et Soir</h3>
+                <p>Du lundi au vendredi, samedi et dimanche soir</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/images/brunch.jpg" alt="image-de-support" />
+              <div class="content">
+                <h3>Menu Brunch</h3>
+                <p>Samedi et dimanche de 10 h à 15 h</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/images/drinks.jpg" alt="image-de-support" />
+              <div class="content">
+                <h3>Menu Boissons</h3>
+                <p>
+                  Vins natures et biologiques, bières et cocktails botaniques
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/images/togo.jpg" alt="image-de-support" />
+              <div class="content">
+                <h3>Menu Pour Emporter</h3>
+                <p>
+                  Une grande sélection de plats pour manger au bureau ou à la
+                  maison
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews">
+          <h2>Critiques</h2>
+          <figure>
+            <blockquote>
+              Absolument délicieux. Je ne suis pas végétalienne et c’était de
+              loin l’un des meilleurs repas que j’ai pris à Val-Jalbert. Prenez
+              le « hamburger » de la maison avec des frites de patates douces ou
+              le « fromage grillé ». Nous étions là pour un déjeuner tardif un
+              lundi et le service était amical et rapide. L’intérieur est
+              également magnifique. J’adorais tout à ce sujet !
+            </blockquote>
+            <figcaption>
+              <img
+                src="assets/images/reviewer.jpeg"
+                alt="Photo de Sarah O'Maillet"
+              /><i>— Sarah O’Maillet</i>
+            </figcaption>
+          </figure>
+          <div class="grid">
+            <a class="link" href="#">Voir toutes les critiques</a>
+          </div>
+        </section>
+
+        <section class="group">
+          <h2>Réservations de groupe</h2>
+          <div>
+            <p>
+              <b>Neuf personnes et plus?</b> « Vedge » Val-Jalbert peut
+              accueillir des groupes jusqu’à 24 personnes.
+            </p>
+            <a class="link" href="#">Consulter notre page pour les groupes</a>
+            <p>
+              <b>Les groupes de 20 à 24 personnes</b> ont accès à une carte de
+              groupe qui réunit l’ensemble de nos meilleurs vendeurs. Chaque
+              personne à votre table sélectionnera au minimum une entrée et un
+              plat.
+            </p>
+            <a class="link" href="#">Voir le menu de groupe</a>
+          </div>
+          <button class="btn">
+            Faites une demande de réservation de groupe
+          </button>
+        </section>
+
+        <section class="gallery">
+          <h2>Galerie photos</h2>
+          <div class="grid">
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+            <img src="assets/images/valjalbert.jpg" alt="Val-Jalbert" />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <section class="franchise">
+          <h2>Vous voulez établir votre propre restaurant ?</h2>
+          <div class="grid">
+            <p>
+              Laissez-nous vous convaincre de développer votre propre franchise
+              « Vedge » !
+            </p>
+            <button class="btn">Contactez-nous!</button>
+          </div>
+        </section>
+
+        <div class="grid">
+          <section class="links">
+            <h2>Liens utiles</h2>
+            <ul>
+              <li>
+                <a class="link" href="philosophie.html">Notre philosophie</a>
+              </li>
+              <li><a class="link" href="#">Carrières</a></li>
+              <li><a class="link" href="#">Franchises</a></li>
+              <li><a class="link" href="#">Presse</a></li>
+              <li><a class="link" href="#">Contact</a></li>
+            </ul>
+          </section>
+
+          <section class="newsletter">
+            <h2>Infolettre</h2>
+            <form>
+              <input type="text" placeholder="@courriel" />
+              <button class="btn">S'abonner</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
